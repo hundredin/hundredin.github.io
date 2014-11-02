@@ -1,0 +1,18 @@
+# Site settings
+title: from scratch
+email: hundredin9@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write some tips and tutorials for software developers.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://hundredin.github.io" # the base hostname & protocol for your site
+twitter_username: hundredin
+github_username:  hundredin
+
+markdown: KramdownPygments
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
