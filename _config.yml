@@ -8,11 +8,5 @@ url: "http://hundredin.github.io" # the base hostname & protocol for your site
 twitter_username: hundredin
 github_username:  hundredin
 
-markdown: KramdownPygments
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  input: GFM
+markdown: redcarpet
+highlighter: pygments
